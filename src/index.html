@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>galvanize personnel</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" charset="utf-8">
+  </head>
+  <body class="container">
+    <h1 class="page-header text-center col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">Galvanize Personnel</h1>
+    <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+      <form class="row">
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input id="firstName" class="form-control" type="text" name="firstName">
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input id="lastName" class="form-control" type="text" name="lastName">
+        </div>
+        <div class="form-group">
+            <label for="role">Role:</label>
+            <select class="form-control" name="role">
+              <option value"" disabled selected hidden>- Select an Option Here -</option>
+            </select>
+        </div>
+      </form>
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+      <img class="col-xs-6 col-xs-offset-3" src="http://placehold.it/250x250" alt="Personnel role" />
+      <br>
+      <p class="save-status lead col-xs-8 col-xs-offset-2"></p>
+      <br>
+      <button id="save" class="btn btn-lg btn-success col-xs-8 col-xs-offset-2" type="button" name="save">Save</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
